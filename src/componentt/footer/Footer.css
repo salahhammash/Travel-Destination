@@ -1,0 +1,10 @@
+.footer {
+   background-color: brown;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+
+}
+
+.buttons{
+}
