@@ -1,0 +1,17 @@
+.tours {
+    background-color: rgb(154, 154, 228);
+    display: flex;
+    flex-direction: column;
+    /* height: 150px; */
+    align-items: center;
+}
+
+.imgs {
+    height: 200px;
+    width: 300px;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    border-radius: 5px;
+    box-shadow: 50px;
+}
