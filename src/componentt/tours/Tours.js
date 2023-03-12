@@ -1,29 +1,32 @@
 import React from 'react';
 import './Tours.css'
-
-const data = require('../../data/db.json');
+import Tour from './tour/Tour';
+const daBa = require('../../data/db.json');
 
 function Tours() {
   return (
 
-    <div className='tours'>
 
-      {
-        data.map((item) => {
-          return (
-            <div >
-
-              <img src={item.image} className="imgs"></img>
-              <h1> {item.name} </h1>
-            </div>
-          )
-        })
-
-      }
-
+    <div className="tours">
+      {daBa.map((element) => {
+        return (
+          <div key={element.id}>
+            <Tour tour={element} />
+          </div>
+        )
+      })}
     </div>
   )
-
 }
+
+
+
+
+
+
+
+
+
+
 
 export default Tours

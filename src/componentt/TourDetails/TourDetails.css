@@ -1,4 +1,7 @@
-.tours {
+
+
+
+.a {
     background-color: rgb(154, 154, 228);
     display: flex;
     flex-direction: column;
@@ -16,7 +19,7 @@
     box-shadow: 50px;
 }
 
-.two{
+/* .two{
     width: 40%;
     background-color: rgb(199, 97, 97);
 
@@ -24,4 +27,4 @@ margin: 10px 0px;
 padding-top: 20px;
 border-radius: 30px;
 box-shadow: 10px 5px 5px;
-}
+} */

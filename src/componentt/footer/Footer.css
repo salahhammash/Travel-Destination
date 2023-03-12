@@ -1,10 +1,23 @@
 .footer {
    background-color: brown;
    display: flex;
-   justify-content: space-between;
-   padding: 20px;
+   justify-content: space-around;
+   /* padding: 10px; */
+   align-items: center;
+}
+
+
+.buttons{
+display: flex;
 
 }
 
-.buttons{
+li{
+list-style: none;
+padding: 0px 10px;
+}
+
+a{
+   text-decoration: none;
+   color: aqua;
 }
